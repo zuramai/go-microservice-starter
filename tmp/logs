@@ -1,0 +1,1023 @@
+{"level,":"debug","message,":"Server listening","foo":"bar"}
+{"level,":"debug","message,":"logger construction succeed","foo":"bar"}
+{"level,":"debug","message,":"Server listening","foo":"bar"}
+{"level,":"debug","message,":"logger construction succeed","foo":"bar"}
+{"level,":"debug","message,":"Server listening on localhost:5052","foo":"bar"}
+{"level,":"debug","message,":"logger construction succeed","foo":"bar"}
+{"level,":"debug","message,":"Server listening on localhost:5052","foo":"bar"}
+{"level,":"debug","message,":"Stopping the server..","foo":"bar"}
+{"level,":"info","message,":"Server started","foo":"bar"}
+{"level,":"debug","message,":"logger construction succeed","foo":"bar"}
+{"level,":"debug","message,":"Server listening on localhost:5052","foo":"bar"}
+{"level,":"debug","message,":"Stopping the server..","foo":"bar"}
+{"level,":"debug","message,":"Done.","foo":"bar"}
+{"level,":"info","message,":"Server started","foo":"bar"}
+{"level,":"debug","message,":"logger construction succeed","foo":"bar"}
+{"level,":"debug","message,":"Server listening on localhost:5052","foo":"bar"}
+{"level,":"debug","message,":"Stopping the server..","foo":"bar"}
+{"level,":"info","message,":"Server started","foo":"bar"}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"GET REGISTRATION USE CASE"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0000b8700}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Sigrid Rutherford Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dbf930e670435e45d1dfb5\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dbf930e670435e45d1dfb5\") Sigrid Rutherford Admin 2021-06-30 11:55:12.6509158 +0700 +07 m=+9.596242501 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dbf930e670435e45d1dfb5"}
+{"level,":"debug","message,":"User find ObjectID(\"60dbf930e670435e45d1dfb5\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dbf930e670435e45d1dfb5\") Sigrid Rutherford Admin 2021-06-30 04:55:12.65 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"GET REGISTRATION USE CASE"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc00034a820}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Albert Kozey Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0131cdc29f7d09ff0621\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0131cdc29f7d09ff0621\") Albert Kozey Admin 2021-06-30 12:29:21.649399 +0700 +07 m=+5.641728401 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0131cdc29f7d09ff0621"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0131cdc29f7d09ff0621\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0131cdc29f7d09ff0621\") Albert Kozey Admin 2021-06-30 05:29:21.649 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"GET REGISTRATION USE CASE"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0000b8700}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Carolyne Herzog Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc023346016d08d7abff26\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc023346016d08d7abff26\") Carolyne Herzog Admin 2021-06-30 12:33:39.0019073 +0700 +07 m=+12.642023001 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc023346016d08d7abff26"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc023346016d08d7abff26\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc023346016d08d7abff26\") Carolyne Herzog Admin 2021-06-30 05:33:39.001 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"GET REGISTRATION USE CASE"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003a2700}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Marguerite Olson Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc07baddd1f47e6b50a6e4\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc07baddd1f47e6b50a6e4\") Marguerite Olson Admin 2021-06-30 12:57:14.0078744 +0700 +07 m=+4.014590501 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc07baddd1f47e6b50a6e4"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc07baddd1f47e6b50a6e4\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc07baddd1f47e6b50a6e4\") Marguerite Olson Admin 2021-06-30 05:57:14.007 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"GET REGISTRATION USE CASE"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0000b5710}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Antwan Kiehn Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc087480dccd657524ec98\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc087480dccd657524ec98\") Antwan Kiehn Admin 2021-06-30 13:00:20.7488067 +0700 +07 m=+4.974661801 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc087480dccd657524ec98"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc087480dccd657524ec98\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc087480dccd657524ec98\") Antwan Kiehn Admin 2021-06-30 06:00:20.748 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"error","message,":"Use case not found in UseCaseFactoryBuilderMap{}"}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"GET REGISTRATION USE CASE"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036f860}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Emmett Collins Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0895b61c2cd9c6ac55df\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0895b61c2cd9c6ac55df\") Emmett Collins Admin 2021-06-30 13:00:53.1456168 +0700 +07 m=+4.033895101 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0895b61c2cd9c6ac55df"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0895b61c2cd9c6ac55df\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0895b61c2cd9c6ac55df\") Emmett Collins Admin 2021-06-30 06:00:53.145 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036ff00}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0000cf730}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Tiara Stamm Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0981708eeeb73b3eb9e7\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0981708eeeb73b3eb9e7\") Tiara Stamm Admin 2021-06-30 13:04:49.0893231 +0700 +07 m=+52.041578001 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0981708eeeb73b3eb9e7"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0981708eeeb73b3eb9e7\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0981708eeeb73b3eb9e7\") Tiara Stamm Admin 2021-06-30 06:04:49.089 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00034a920}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00034a040}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Kianna Keeling Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc09a7708eeeb73b3eb9e8\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc09a7708eeeb73b3eb9e8\") Kianna Keeling Admin 2021-06-30 13:05:27.9533469 +0700 +07 m=+90.905601801 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc09a7708eeeb73b3eb9e8"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc09a7708eeeb73b3eb9e8\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc09a7708eeeb73b3eb9e8\") Kianna Keeling Admin 2021-06-30 06:05:27.953 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc000502140}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003a2700}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Brian Friesen Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0a184fe393c9faffc223\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0a184fe393c9faffc223\") Brian Friesen Admin 2021-06-30 13:07:20.7199796 +0700 +07 m=+3.219414801 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0a184fe393c9faffc223"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0a184fe393c9faffc223\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0a184fe393c9faffc223\") Brian Friesen Admin 2021-06-30 06:07:20.719 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00048e5f0}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003c5730}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Randy Crona Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0a396d220a18784eeec5\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0a396d220a18784eeec5\") Randy Crona Admin 2021-06-30 13:07:53.6996551 +0700 +07 m=+2.303596201 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0a396d220a18784eeec5"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0a396d220a18784eeec5\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0a396d220a18784eeec5\") Randy Crona Admin 2021-06-30 06:07:53.699 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00009c750}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Result update: &{0xc00009c7d0 <nil> [] <nil>}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036d860}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Eric Feeney Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0a76943b8b66f570d400\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0a76943b8b66f570d400\") Eric Feeney Admin 2021-06-30 13:08:54.9945903 +0700 +07 m=+3.318512601 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0a76943b8b66f570d400"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0a76943b8b66f570d400\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0a76943b8b66f570d400\") Eric Feeney Admin 2021-06-30 06:08:54.994 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0005044c0}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036f860}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Llewellyn Kuhn Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0abe0fda36813d223de8\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0abe0fda36813d223de8\") Llewellyn Kuhn Admin 2021-06-30 13:10:06.4476579 +0700 +07 m=+2.485766101 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0abe0fda36813d223de8"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0abe0fda36813d223de8\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0abe0fda36813d223de8\") Llewellyn Kuhn Admin 2021-06-30 06:10:06.447 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update User called for 60dc0abe0fda36813d223de8"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0004027b0}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003c5730}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Mayra Skiles Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0b14c4004a1b859902a3\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0b14c4004a1b859902a3\") Mayra Skiles Admin 2021-06-30 13:11:32.8772467 +0700 +07 m=+2.070046201 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0b14c4004a1b859902a3"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0b14c4004a1b859902a3\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0b14c4004a1b859902a3\") Mayra Skiles Admin 2021-06-30 06:11:32.877 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0005045c0}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Update User called for 60dc0b14c4004a1b859902a3"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc000423710}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Hadley Emmerich Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0b53922cdb93f0450a22\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0b53922cdb93f0450a22\") Hadley Emmerich Admin 2021-06-30 13:12:35.0601204 +0700 +07 m=+2.708431001 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0b53922cdb93f0450a22"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0b53922cdb93f0450a22\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0b53922cdb93f0450a22\") Hadley Emmerich Admin 2021-06-30 06:12:35.06 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00009c2a0}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0000d3750}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Juston Kuvalis Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc0b784169eac6df87e14f\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc0b784169eac6df87e14f\") Juston Kuvalis Admin 2021-06-30 13:13:12.2313094 +0700 +07 m=+2.140452701 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc0b784169eac6df87e14f"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc0b784169eac6df87e14f\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc0b784169eac6df87e14f\") Juston Kuvalis Admin 2021-06-30 06:13:12.231 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003aa760}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003bd730}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Lora Langosh Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc13824b420bd9135e29e9\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc13824b420bd9135e29e9\") Lora Langosh Admin 2021-06-30 13:47:30.3509473 +0700 +07 m=+2.401048301 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc13824b420bd9135e29e9"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc13824b420bd9135e29e9\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc13824b420bd9135e29e9\") Lora Langosh Admin 2021-06-30 06:47:30.35 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update to: UPDATED"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc000504640}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0000b5710}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Lucile Kiehn Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc14263aea6bcc85b8d0ba\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc14263aea6bcc85b8d0ba\") Lucile Kiehn Admin 2021-06-30 13:50:14.0471367 +0700 +07 m=+2.212012801 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc14263aea6bcc85b8d0ba"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc14263aea6bcc85b8d0ba\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc14263aea6bcc85b8d0ba\") Lucile Kiehn Admin 2021-06-30 06:50:14.047 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003a2500}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036d860}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Emmett Becker Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc149f22cd35f382d25a79\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc149f22cd35f382d25a79\") Emmett Becker Admin 2021-06-30 13:52:15.6513812 +0700 +07 m=+2.158855401 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc149f22cd35f382d25a79"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc149f22cd35f382d25a79\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc149f22cd35f382d25a79\") Emmett Becker Admin 2021-06-30 06:52:15.651 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036df10}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003a2700}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Dewitt Satterfield Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc14b612305fbc2d731cde\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc14b612305fbc2d731cde\") Dewitt Satterfield Admin 2021-06-30 13:52:38.8064005 +0700 +07 m=+3.499039001 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc14b612305fbc2d731cde"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc14b612305fbc2d731cde\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc14b612305fbc2d731cde\") Dewitt Satterfield Admin 2021-06-30 06:52:38.806 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003a21a0}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003a3710}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Stephon Bruen Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc1522e9a2b532212da2ed\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc1522e9a2b532212da2ed\") Stephon Bruen Admin 2021-06-30 13:54:26.3287855 +0700 +07 m=+3.101086101 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc1522e9a2b532212da2ed"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc1522e9a2b532212da2ed\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc1522e9a2b532212da2ed\") Stephon Bruen Admin 2021-06-30 06:54:26.328 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc000506340}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036d860}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"name:\"Axel Jacobs\" role:\"Admin\""}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Axel Jacobs Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc154085e58aa0b5e30d82\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc154085e58aa0b5e30d82\") Axel Jacobs Admin 2021-06-30 13:54:56.4555854 +0700 +07 m=+2.062038201 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc154085e58aa0b5e30d82"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc154085e58aa0b5e30d82\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc154085e58aa0b5e30d82\") Axel Jacobs Admin 2021-06-30 06:54:56.455 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0000b8380}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc000348830}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"user: name:\"Johanna Torphy\" role:\"Admin\""}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Johanna Torphy Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc15655a0bad4655710675\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc15655a0bad4655710675\") Johanna Torphy Admin 2021-06-30 13:55:33.9517058 +0700 +07 m=+2.200237601 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc15655a0bad4655710675"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc15655a0bad4655710675\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc15655a0bad4655710675\") Johanna Torphy Admin 2021-06-30 06:55:33.951 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0000a6410}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003a2700}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Sigmund Reichel Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc1589192783352a72b17d\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc1589192783352a72b17d\") Sigmund Reichel Admin 2021-06-30 13:56:09.7410576 +0700 +07 m=+2.198944101 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc1589192783352a72b17d"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc1589192783352a72b17d\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc1589192783352a72b17d\") Sigmund Reichel Admin 2021-06-30 06:56:09.741 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00040e790}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"user: name:\"UPDATED\""}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"000000000000000000000000\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036f860}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Sarina Wilderman Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc15dea93c24e76473b4cc\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc15dea93c24e76473b4cc\") Sarina Wilderman Admin 2021-06-30 13:57:34.6490248 +0700 +07 m=+2.533767101 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc15dea93c24e76473b4cc"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc15dea93c24e76473b4cc\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc15dea93c24e76473b4cc\") Sarina Wilderman Admin 2021-06-30 06:57:34.649 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036fbc0}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert 60dc15dea93c24e76473b4cc to ObjectID(\"60dc15dea93c24e76473b4cc\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"60dc15dea93c24e76473b4cc\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"60dc15dea93c24e76473b4cc\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"60dc15dea93c24e76473b4cc\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036ff30}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Arno Schulist Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc15f4a93c24e76473b4cd\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc15f4a93c24e76473b4cd\") Arno Schulist Admin 2021-06-30 13:57:56.8927125 +0700 +07 m=+24.777454801 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc15f4a93c24e76473b4cd"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc15f4a93c24e76473b4cd\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc15f4a93c24e76473b4cd\") Arno Schulist Admin 2021-06-30 06:57:56.892 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0004aa270}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert 60dc15f4a93c24e76473b4cd to ObjectID(\"60dc15f4a93c24e76473b4cd\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"60dc15f4a93c24e76473b4cd\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"60dc15f4a93c24e76473b4cd\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"60dc15f4a93c24e76473b4cd\") UPDATED  0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036d860}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Otha Pouros Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc16208347292b6179340e\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc16208347292b6179340e\") Otha Pouros Admin 2021-06-30 13:58:40.8072622 +0700 +07 m=+4.037780801 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc16208347292b6179340e"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc16208347292b6179340e\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc16208347292b6179340e\") Otha Pouros Admin 2021-06-30 06:58:40.807 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00036dc20}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert 60dc16208347292b6179340e to ObjectID(\"60dc16208347292b6179340e\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"60dc16208347292b6179340e\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"60dc16208347292b6179340e\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"60dc16208347292b6179340e\") UPDATED  0001-01-01 00:00:00 +0000 UTC 2021-06-30 13:58:40.8142633 +0700 +07 m=+4.044781901}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc000337850}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Roy Cummerata Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc171ad5a830f51fe3be27\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc171ad5a830f51fe3be27\") Roy Cummerata Admin 2021-06-30 14:02:50.5360027 +0700 +07 m=+3.447984101 2021-06-30 14:02:50.5360027 +0700 +07 m=+3.447984101}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc171ad5a830f51fe3be27"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc171ad5a830f51fe3be27\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc171ad5a830f51fe3be27\") Roy Cummerata Admin 2021-06-30 07:02:50.536 +0000 UTC 2021-06-30 07:02:50.536 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc000337dd0}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert 60dc171ad5a830f51fe3be27 to ObjectID(\"60dc171ad5a830f51fe3be27\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"60dc171ad5a830f51fe3be27\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"60dc171ad5a830f51fe3be27\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"60dc171ad5a830f51fe3be27\") UPDATED  0001-01-01 00:00:00 +0000 UTC 2021-06-30 14:02:50.5430054 +0700 +07 m=+3.454986801}"}
+{"level,":"debug","message,":"Stopping the server.."}
+{"level,":"debug","message,":"logger construction succeed"}
+{"level,":"debug","message,":"Server listening on localhost:5052"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003c5730}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Ivah Walter Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc174d9097d783284809f5\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc174d9097d783284809f5\") Ivah Walter Admin 2021-06-30 14:03:41.6765218 +0700 +07 m=+2.836005301 2021-06-30 14:03:41.6765218 +0700 +07 m=+2.836005301}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc174d9097d783284809f5"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc174d9097d783284809f5\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc174d9097d783284809f5\") Ivah Walter Admin 2021-06-30 07:03:41.676 +0000 UTC 2021-06-30 07:03:41.676 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003c5b40}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert 60dc174d9097d783284809f5 to ObjectID(\"60dc174d9097d783284809f5\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"60dc174d9097d783284809f5\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"60dc174d9097d783284809f5\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"60dc174d9097d783284809f5\") UPDATED  0001-01-01 00:00:00 +0000 UTC 2022-07-31 14:03:41.6835204 +0700 +07}"}
+{"level,":"debug","message,":"RegisterUser called"}
+{"level,":"debug","message,":"Building Usecase with key: registration"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc00009c260}"}
+{"level,":"debug","message,":"usecase type: *registration.RegistrationUseCase"}
+{"level,":"debug","message,":"Convert  to ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"Register User:&{ObjectID(\"000000000000000000000000\") Maryam Feest Admin 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User find ObjectID(\"000000000000000000000000\")"}
+{"level,":"debug","message,":"User not found"}
+{"level,":"debug","message,":"Insert Success - ObjectID(\"60dc17aa9097d783284809f6\")"}
+{"level,":"debug","message,":"Registered User:&{ObjectID(\"60dc17aa9097d783284809f6\") Maryam Feest Admin 2021-06-30 14:05:14.3261392 +0700 +07 m=+95.485622701 2021-06-30 14:05:14.3261392 +0700 +07 m=+95.485622701}"}
+{"level,":"debug","message,":"GetUserById called"}
+{"level,":"debug","message,":"Get user use case"}
+{"level,":"debug","message,":"Building Usecase with key: listUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"usecase type: *listuser.ListUserUseCase"}
+{"level,":"debug","message,":"Find: 60dc17aa9097d783284809f6"}
+{"level,":"debug","message,":"User find ObjectID(\"60dc17aa9097d783284809f6\")"}
+{"level,":"debug","message,":"User found - {ObjectID(\"60dc17aa9097d783284809f6\") Maryam Feest Admin 2021-06-30 07:05:14.326 +0000 UTC 2021-06-30 07:05:14.326 +0000 UTC}"}
+{"level,":"debug","message,":"Update user use case"}
+{"level,":"debug","message,":"Building Usecase with key: updateUser"}
+{"level,":"debug","message,":"UserDataServiceFactory"}
+{"level,":"debug","message,":"sqlUserDataServiceFactory"}
+{"level,":"debug","message,":"Found database connection in container key: mongodb"}
+{"level,":"debug","message,":"Registration usecase: {0xc0003c5750}"}
+{"level,":"debug","message,":"usecase type: *updateuser.UpdateUserUseCase"}
+{"level,":"debug","message,":"Convert 60dc17aa9097d783284809f6 to ObjectID(\"60dc17aa9097d783284809f6\")"}
+{"level,":"debug","message,":"Update User called for ObjectID(\"60dc17aa9097d783284809f6\")"}
+{"level,":"debug","message,":"Updating user: ObjectID(\"60dc17aa9097d783284809f6\")"}
+{"level,":"debug","message,":"Result update: {ObjectID(\"000000000000000000000000\")   0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}"}
+{"level,":"debug","message,":"User updated: &{ObjectID(\"60dc17aa9097d783284809f6\") UPDATED  0001-01-01 00:00:00 +0000 UTC 2022-07-31 14:05:14.3321405 +0700 +07}"}
+{"level,":"debug","message,":"Stopping the server.."}

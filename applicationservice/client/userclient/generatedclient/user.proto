@@ -1,0 +1,69 @@
+syntax = "proto3";
+package generatedclient;
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "./;generatedclient";
+
+message GetUserByIdRequest {
+    string id = 1;
+}
+
+message User {
+    string id = 1;
+    string name = 2;
+    string role = 3;
+    google.protobuf.Timestamp created_at = 4;
+    google.protobuf.Timestamp updated_at = 5;
+}
+
+message GetUserListRequest {
+    map<string,string> filters = 1;
+    string order_by = 2;
+    bool paginate = 3;
+    int32 result_per_page = 4;
+    int32 page = 5;
+}
+
+message GetUserListResponse {
+    repeated User users = 1;
+}
+
+message StoreUserRequest {
+    User user = 1;
+}
+
+message StoreUserResponse {
+    User user = 1;
+}
+
+message GetUserByNameRequest {
+    string name = 1;
+}
+
+message DeleteUserByIdRequest {
+    string id = 1;
+    bool soft_delete = 2;
+}
+
+message DeleteUserResponse {
+    int32 rowsAffected = 1;
+}
+
+message UpdateUserByIdRequest {
+    string id = 1;
+    User user = 2;
+}
+
+message UpdateSingleUserResponse {
+    User user = 1;
+}
+
+service UserService {
+    rpc GetUserById(GetUserByIdRequest) returns (User);
+    rpc GetUserByName(GetUserByNameRequest) returns (GetUserListResponse);
+    rpc GetUserList(GetUserListRequest) returns (GetUserListResponse);
+    rpc RegisterUser(StoreUserRequest) returns (StoreUserResponse);
+    rpc DeleteUserById(DeleteUserByIdRequest) returns (DeleteUserResponse);
+    rpc UpdateUserById(UpdateUserByIdRequest) returns (UpdateSingleUserResponse);
+}

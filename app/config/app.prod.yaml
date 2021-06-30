@@ -1,0 +1,47 @@
+mongoConfig: &mongoConfig
+    code: mongodb
+    driverName: mongodb
+    urlAddress: "mongodb://localhost:27017/"
+    dbName: "example-users"
+    tx: false
+cacheGrpcConfig: &cacheGrpcConfig
+    code: cacheGrpc
+    driverName: tcp
+    urlAddress: localhost:5051
+userGrpcConfig: &userGrpcConfig
+    code: userGrpc
+    driverName: tcp
+    urlAddress: localhost:5052
+zapConfig: &zapConfig
+    level: debug
+    encoding: json
+    outputPaths: [stdout, ./tmp/logs]
+    errorOutputPaths: [stderr]
+    initialFields:
+    encoderConfig: 
+        messageKey: message,
+        levelKey: level,
+        levelEncoder: lowercase
+
+useCaseConfig:
+    registration:
+        code: registration
+        userDataConfig: &userDataConfig
+            code: userData
+            dataStoreConfig: *mongoConfig
+    listUser:
+        code: listUser
+        userDataConfig: *userDataConfig
+        cacheDataConfig: &cacheDataConfig
+            code: cacheData
+            dataStoreConfig: *cacheGrpcConfig
+    updateUser:
+        code: updateUser
+        userDataConfig: *userDataConfig
+    deleteUser:
+        code: deleteUser
+        userDataConfig: *userDataConfig
+   
+
+
+
