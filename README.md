@@ -34,6 +34,10 @@ go mod vendor
 ```
 make runserver
 ```
+4. Run the tests
+```
+make runtest
+```
 
 ## Todo list
 - [ ] Add ElasticSearch example
@@ -64,5 +68,3 @@ The `dataservicefactory` folder is responsible to create concrete type of data s
 
 ## Reference
 Thanks to @jfeng45
-
-
